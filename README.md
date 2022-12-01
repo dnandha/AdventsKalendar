@@ -1,8 +1,16 @@
-# AdventsKalendar (advent calendar), React + Express
+# AdventsKalendar (advent calendar), NodeJS (React + Express)
+This is a demo App to learn frontend/backend interaction via REST API.
 
+Express provides API routes and is configured to use CORS and a JSON body-parser middleware (for PUT calls). The backend connects and interacts asynchronously with MongoDB - in my case the db is running on the [Atlas](https://www.mongodb.com/docs/atlas/getting-started/) cloud. 
+
+A React application acts as the frontend and makes API calls (via fetch) to the Express backend. React's JSX coupled with state changes allows for a quick and responsive rendering of each component.
+
+Bootstrap is used for styling.
+
+## Requirements
+NodeJS + NPM
 
 ## Installation
-
 Frontend: `npm install`  
 Backend: `cd backend && npm install`
 
